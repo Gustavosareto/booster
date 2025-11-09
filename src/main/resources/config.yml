@@ -1,0 +1,41 @@
+# BoosterMaster configuration
+use-vault: true
+
+boosters:
+  "1.3x":
+    multiplier: 1.3
+    durations: [1, 3, 5, 20] # minutes
+    item:
+      material: EXP_BOTTLE
+      name: "&aBooster 1.3x ({minutes}m)"
+      lore:
+        - "&7Clique com o botão direito para ativar"
+        - "&eMultiplicador: &f{multiplier}x"
+        - "&eDuração: &f{minutes} minutos"
+  "1.5x":
+    multiplier: 1.5
+    durations: [1, 3, 5, 20]
+    item:
+      material: EXP_BOTTLE
+      name: "&bBooster 1.5x ({minutes}m)"
+      lore:
+        - "&7Clique com o botão direito para ativar"
+        - "&eMultiplicador: &f{multiplier}x"
+        - "&eDuração: &f{minutes} minutos"
+  "2.0x":
+    multiplier: 2.0
+    durations: [1, 3, 5, 20]
+    item:
+      material: EXP_BOTTLE
+      name: "&6Booster 2.0x ({minutes}m)"
+      lore:
+        - "&7Clique com o botão direito para ativar"
+        - "&eMultiplicador: &f{multiplier}x"
+        - "&eDuração: &f{minutes} minutos"
+
+messages:
+  activated: "&aVocê ativou um booster de &e{multiplier}x &apor &e{minutes} minutos!"
+  expired: "&cSeu booster expirou!"
+  no_booster: "&7Você não possui um booster ativo."
+  info: "&aSeu booster atual: &e{multiplier}x &a- Restam &e{time}"
+  given: "&aVocê recebeu um booster de &e{multiplier}x &apor &e{minutes} minutos!"

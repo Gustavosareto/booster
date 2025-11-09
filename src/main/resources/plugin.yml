@@ -1,0 +1,9 @@
+name: BoosterMaster
+main: me.gustavo.boostermaster.BoosterMaster
+version: 1.0.0
+api-version: "1.8"
+author: Gustavo
+commands:
+  boosters:
+    description: Manage boosters (players: info / activate; admins: give)
+    usage: /boosters
